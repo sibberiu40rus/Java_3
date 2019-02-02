@@ -1,12 +1,14 @@
+/**
+ * @version 02.02.2019
+ * @autor Martynyuk Alexey
+ * Java_3 Lesson_1
+ */
 package home_work_3;
 
 public class Home_work_3 {
 
 
     public static void main(String[] args) {
-
-        Apple apple = new Apple();
-        Orange orange = new Orange();
 
         Box<Apple> boxForApple = new Box<>();
         Box<Apple> boxForApple2 = new Box<>();
@@ -25,8 +27,10 @@ public class Home_work_3 {
         System.out.println(boxForApple2.getWeight());
 
         System.out.println(boxForOrange.getWeight());
+        System.out.println(boxForOrange2.getWeight());
 
         System.out.println("Результат сравнения коробок: " + boxForApple2.compare(boxForApple));
+        System.out.println("Результат сравнения коробок: " + boxForOrange.compare(boxForOrange2));
 
     }
 }

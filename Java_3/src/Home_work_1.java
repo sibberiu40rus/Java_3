@@ -1,3 +1,8 @@
+/**
+ * @version 02.02.2019
+ * @autor Martynyuk Alexey
+ * Java_3 Lesson_1
+ */
 public class Home_work_1 {
     public static void main(String[] args) {
         String[] words = {"a","b","c","d","e","f"};
