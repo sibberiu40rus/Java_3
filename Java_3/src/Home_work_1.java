@@ -7,7 +7,7 @@ public class Home_work_1 {
     public static void main(String[] args) {
         String[] words = {"a","b","c","d","e","f"};
         toString(words);
-        changeArr2(words, 1,5);
+        changeArr2(words, 2,5);
         System.out.println();
         toString(words);
 
