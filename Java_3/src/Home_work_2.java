@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class Home_work_2 {
     public static void main(String[] args) {
-        String[] words = {"a","b","c","d","e","f"};
+        String[] words = {"a","b","d","x","y","f"};
         ArrayList<String> symbols = new ArrayList<>();
 
         //первый вариант

@@ -20,7 +20,8 @@ public class Home_work_3 {
         boxForOrange.addFruitToArrayList(new Orange(), 100);
         boxForOrange2.addFruitToArrayList(new Orange(), 100);
 
-        boxForApple.toShiftInBox(boxForApple);
+        boxForApple.toShiftInBox(boxForApple2);
+        
 
 
         System.out.println(boxForApple.getWeight());
